@@ -27,9 +27,13 @@ class LogLine:
 
 
 class aircraftt:
-    def __init__(self, lat="", lon=""):
+    def __init__(self, lat="", lon="", hexi="", typ="", flight="", alt=""):
         self.lat = lat
         self.lon = lon
+        self.hexi = hexi
+        self.typ = typ
+        self.flight = flight
+        self.alt = alt
     lat = ""
     lon = ""
     hexi = ""
@@ -43,16 +47,12 @@ def readfile(filename=""):
     for aircraft in data['aircraft']:
         print("\n======\n")
         print(aircraft)
-        if 'lat' in aircraft.keys() and 'lon' in aircraft.keys():
-            craft = aircraftt(lat=aircraft['lat'], lon=aircraft['lon'])
-            print(vars(craft).items())
+        craft = aircraftt(lat=aircraft.get("lat"), lon=aircraft.get('lon'), alt=aircraft.get('alt'), flight=aircraft.get('flight'))
+        print(vars(craft).items())
 
 
 
 if __name__ == '__main__':
-    readfile("")
-    time.sleep(1)
-    readfile("")
     while True:
         readfile("")
         time.sleep(1)
