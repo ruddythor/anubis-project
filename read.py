@@ -1,22 +1,5 @@
 import time
-import os
 import json
-def follow(thefile):
-    '''generator function that yields new lines in a file
-    '''
-    # seek the end of the file
-    thefile.seek(0, 2)
-    
-    # start infinite loop
-    while True:
-        # read last line of file
-        line = thefile.readline()
-        # sleep if file hasn't been updated
-        if not line:
-            time.sleep(0.1)
-            continue
-
-        yield line
 
 
 class LogLine:
