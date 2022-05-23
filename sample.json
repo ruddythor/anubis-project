@@ -1,7 +1,7 @@
-{ "now" : 1653263584.255,
-  "messages" : 37,
+{ "now" : 1653264475.255,
+  "messages" : 325,
   "aircraft" : [
-{"hex":"a2ca5f","type":"mode_s","flight":"UAL982  ","alt_baro":8900,"alt_geom":9275,"gs":268.7,"track":315.30,"geom_rate":3072,"squawk":"5616","emergency":"none","category":"A5","version":0,"nac_p":8,"nac_v":1,"sil":2,"sil_type":"unknown","alert":0,"spi":0,"mlat":[],"tisb":[],"messages":26,"seen":8.2,"rssi":-5.4}
+{"hex":"4063e7","type":"mode_s","flight":"VIR76X  ","alt_baro":37000,"alt_geom":38800,"gs":473.0,"track":20.16,"baro_rate":-64,"category":"A5","nav_qnh":1013.6,"nav_altitude_mcp":36992,"nav_heading":0.00,"version":0,"nic_baro":1,"nac_p":8,"nac_v":1,"sil":2,"sil_type":"perhour","gva":2,"sda":2,"alert":0,"spi":0,"mlat":[],"tisb":[],"messages":153,"seen":7.8,"rssi":-5.9},
+{"hex":"a0ac92","type":"mode_s","flight":"UCA4275 ","alt_baro":9800,"alt_geom":10225,"gs":273.9,"track":341.04,"baro_rate":2816,"category":"A2","nav_qnh":1018.4,"nav_altitude_mcp":16992,"version":0,"nic_baro":1,"nac_p":10,"nac_v":2,"sil":3,"sil_type":"unknown","alert":0,"spi":0,"mlat":[],"tisb":[],"messages":45,"seen":39.6,"rssi":-5.8}
   ]
 }
-
