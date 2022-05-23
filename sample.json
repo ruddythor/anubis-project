@@ -1,0 +1,7 @@
+{ "now" : 1653263584.255,
+  "messages" : 37,
+  "aircraft" : [
+{"hex":"a2ca5f","type":"mode_s","flight":"UAL982  ","alt_baro":8900,"alt_geom":9275,"gs":268.7,"track":315.30,"geom_rate":3072,"squawk":"5616","emergency":"none","category":"A5","version":0,"nac_p":8,"nac_v":1,"sil":2,"sil_type":"unknown","alert":0,"spi":0,"mlat":[],"tisb":[],"messages":26,"seen":8.2,"rssi":-5.4}
+  ]
+}
+
