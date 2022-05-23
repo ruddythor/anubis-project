@@ -10,6 +10,13 @@ class LogLine:
 
 
 class aircraftt:
+    lat = ""
+    lon = ""
+    hexi = ""
+    typ = ""
+    flight = ""
+    alt = ""
+
     def __init__(self, lat="", lon="", hexi="", typ="", flight="", alt=""):
         self.lat = lat
         self.lon = lon
@@ -17,12 +24,6 @@ class aircraftt:
         self.typ = typ
         self.flight = flight
         self.alt = alt
-    lat = ""
-    lon = ""
-    hexi = ""
-    typ = ""
-    flight = ""
-    alt = ""
 
 def readfile(filename=""):
     with open("/run/readsb/aircraft.json") as myjsonfile:
